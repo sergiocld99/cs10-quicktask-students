@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_monday"
+            android:icon="@drawable/ic_filter_one"
+            android:title="@string/monday" />
+        <item
+            android:id="@+id/nav_tuesday"
+            android:icon="@drawable/ic_filter_two"
+            android:title="@string/tuesday" />
+        <item
+            android:id="@+id/nav_wednesday"
+            android:icon="@drawable/ic_filter_three"
+            android:title="@string/wednesday" />
+        <item
+            android:id="@+id/nav_thursday"
+            android:icon="@drawable/ic_filter_four"
+            android:title="@string/thursday"/>
+        <item
+            android:id="@+id/nav_friday"
+            android:icon="@drawable/ic_filter_five"
+            android:title="@string/friday"/>
+
+        <item android:title="@string/weekend">
+            <menu>
+                <item
+                    android:id="@+id/nav_saturday"
+                    android:icon="@drawable/ic_filter_six"
+                    android:title="@string/saturday"/>
+                <item
+                    android:id="@+id/nav_sunday"
+                    android:icon="@drawable/ic_filter_seven"
+                    android:title="@string/sunday"/>
+            </menu>
+        </item>
+    </group>
+</menu>
